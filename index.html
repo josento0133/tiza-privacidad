@@ -36,13 +36,12 @@
 
   <section>
     <h2>Qué datos salen de tu móvil: la IA</h2>
-    <p>La IA es opcional. Solo se usa si configuras una IA con tu propia API key y pides una recomendación (o activas "Mejorar con IA automático"). Entonces Tiza envía directamente a la IA que hayas elegido, por una conexión cifrada (HTTPS):</p>
+    <p>La IA es opcional. Solo se usa si configuras una IA con tu propia API key y usas una de sus funciones. Entonces Tiza envía directamente a la IA que hayas elegido, por una conexión cifrada (HTTPS), los datos que necesita esa función:</p>
     <ul>
-      <li>tu perfil (edad, sexo, altura, objetivo y experiencia) y tu peso corporal;</li>
-      <li>el historial del ejercicio para el que pides la recomendación y lo que has hecho hoy;</li>
-      <li>tus entrenos de los últimos días (para la recomendación de qué entrenar hoy);</li>
-      <li>tu gimnasio activo, su equipamiento y sus notas;</li>
-      <li>los nombres de tus ejercicios (para clasificarlos).</li>
+      <li><strong>Mejorar con IA</strong> (al pulsarlo, o sola si activas "Mejorar con IA automático"): tu perfil (edad, sexo, altura, objetivo y experiencia), tu peso corporal, tu gimnasio activo (equipamiento y notas), tus últimas sesiones de ese ejercicio y lo que has hecho hoy.</li>
+      <li><strong>Recomendación de qué entrenar hoy:</strong> tus entrenos de los últimos días, los nombres de tus ejercicios con su grupo muscular y equipo, tu objetivo, experiencia, edad y sexo, y tu gimnasio activo.</li>
+      <li><strong>Análisis IA:</strong> la evolución de tus ejercicios en los últimos 60 días (peso máximo, series y volumen), el resumen de tu última semana y tu peso corporal.</li>
+      <li><strong>Clasificar con IA:</strong> los nombres de tus ejercicios.</li>
     </ul>
     <p>Esos datos no pasan por ningún servidor de Tiza. Los recibe y trata el proveedor de la IA según su propia política:</p>
     <ul>
@@ -63,12 +62,13 @@
 
   <section>
     <h2>Copias de seguridad</h2>
-    <p>Tiza guarda copias de seguridad dentro de la app y la última también en la carpeta Descargas de tu móvil. La copia de Descargas y los ficheros que exportas o compartes no llevan tus API keys.</p>
+    <p>Si activas la copia automática o pulsas "Hacer backup ahora", Tiza guarda copias de tus datos dentro de la app (las 10 últimas) y la última también en la carpeta Descargas de tu móvil (tiza-backup.db). Esa copia y los ficheros que exportas o compartes no llevan tus API keys. La copia de Descargas es un fichero tuyo: no se borra al desinstalar la app; bórrala tú si ya no la quieres.</p>
+    <p>Además, si tienes activada la copia de seguridad de Android, el sistema puede guardar los datos de la app (incluidas tus API keys) en tu cuenta de Google. Tiza no tiene acceso a esa copia; se gestiona desde los ajustes de copia de seguridad de tu móvil.</p>
   </section>
 
   <section>
     <h2>Seguridad, conservación y borrado</h2>
-    <p>Tus datos se quedan en tu móvil hasta que los borres (Ajustes &gt; Borrar todos los datos) o desinstales la app. Lo que se envía a la IA lo conserva el proveedor según su política; para borrarlo, dirígete a él. Las conexiones con la IA usan HTTPS y las API keys nunca se incluyen en las copias que salen de la app.</p>
+    <p>Tus datos se quedan en tu móvil hasta que desinstales la app, que los borra todos (salvo la copia de Descargas, que es un fichero tuyo). Ajustes &gt; Borrar todos los datos borra tus entrenamientos (las series registradas); tu API key se borra en Ajustes &gt; IA &gt; Borrar key, y el resto (perfil, peso corporal, rutinas, gimnasios y ajustes) al desinstalar. Lo que se envía a la IA lo conserva el proveedor según su política; para borrarlo, dirígete a él. Las conexiones con la IA usan HTTPS y las copias que exporta Tiza no llevan tus API keys.</p>
   </section>
 
   <section>
