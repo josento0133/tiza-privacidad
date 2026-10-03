@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tiza: política de privacidad</title>
+<style>
+  :root { --fondo: #F2F3F5; --texto: #1B1F24; --suave: #5F6873; --acento: #1E5BD8; --tarjeta: #FFFFFF; }
+  @media (prefers-color-scheme: dark) {
+    :root { --fondo: #121417; --texto: #EEF0F3; --suave: #9AA3AE; --acento: #5B8FF2; --tarjeta: #1C1F24; }
+  }
+  body { margin: 0; background: var(--fondo); color: var(--texto); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 48px; }
+  section { background: var(--tarjeta); border-radius: 12px; padding: 4px 20px; margin: 16px 0; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 18px 0 6px; }
+  p, li { margin: 6px 0; }
+  .fecha { color: var(--suave); margin: 0; }
+  a { color: var(--acento); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de privacidad de Tiza</h1>
+  <p class="fecha">Última actualización: 3 de octubre de 2026</p>
+
+  <section>
+    <h2>Quién es el responsable</h2>
+    <p>Tiza es una app para registrar entrenamientos de gimnasio, publicada en Google Play por su desarrollador. Para cualquier pregunta sobre privacidad, escribe a <a href="mailto:josejose0133@gmail.com">josejose0133@gmail.com</a>.</p>
+  </section>
+
+  <section>
+    <h2>Qué datos guarda la app</h2>
+    <p>Todo lo que introduces se guarda en tu móvil: tus series y entrenamientos, rutinas, peso corporal, perfil (altura, edad, sexo, objetivo y experiencia), gimnasios y sus notas, ajustes y, si configuras la IA, tu API key. Tiza no tiene cuentas de usuario ni servidores propios: el desarrollador no recibe ni puede ver ninguno de estos datos.</p>
+  </section>
+
+  <section>
+    <h2>Qué datos salen de tu móvil: la IA</h2>
+    <p>La IA es opcional. Solo se usa si configuras una IA con tu propia API key y pides una recomendación (o activas "Mejorar con IA automático"). Entonces Tiza envía directamente a la IA que hayas elegido, por una conexión cifrada (HTTPS):</p>
+    <ul>
+      <li>tu perfil (edad, sexo, altura, objetivo y experiencia) y tu peso corporal;</li>
+      <li>el historial del ejercicio para el que pides la recomendación y lo que has hecho hoy;</li>
+      <li>tus entrenos de los últimos días (para la recomendación de qué entrenar hoy);</li>
+      <li>tu gimnasio activo, su equipamiento y sus notas;</li>
+      <li>los nombres de tus ejercicios (para clasificarlos).</li>
+    </ul>
+    <p>Esos datos no pasan por ningún servidor de Tiza. Los recibe y trata el proveedor de la IA según su propia política:</p>
+    <ul>
+      <li>Google (Gemini): <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>. En el nivel gratuito de la API de Gemini, Google puede usar el contenido para mejorar sus productos.</li>
+      <li>Anthropic (Claude): <a href="https://www.anthropic.com/legal/privacy">anthropic.com/legal/privacy</a>.</li>
+      <li>OpenAI (ChatGPT): <a href="https://openai.com/policies/privacy-policy">openai.com/policies/privacy-policy</a>.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Permisos</h2>
+    <ul>
+      <li><strong>Notificaciones:</strong> para mostrar la cuenta atrás del descanso y avisarte al terminar.</li>
+      <li><strong>Alarmas y recordatorios:</strong> para que el aviso de fin de descanso llegue a su hora con la pantalla apagada. Puedes negarlo; el aviso puede llegar con algo de retraso.</li>
+      <li><strong>Internet:</strong> solo para hablar con la IA que elijas.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Copias de seguridad</h2>
+    <p>Tiza guarda copias de seguridad dentro de la app y la última también en la carpeta Descargas de tu móvil. La copia de Descargas y los ficheros que exportas o compartes no llevan tus API keys.</p>
+  </section>
+
+  <section>
+    <h2>Seguridad, conservación y borrado</h2>
+    <p>Tus datos se quedan en tu móvil hasta que los borres (Ajustes &gt; Borrar todos los datos) o desinstales la app. Lo que se envía a la IA lo conserva el proveedor según su política; para borrarlo, dirígete a él. Las conexiones con la IA usan HTTPS y las API keys nunca se incluyen en las copias que salen de la app.</p>
+  </section>
+
+  <section>
+    <h2>Menores</h2>
+    <p>Tiza no está dirigida a menores de 18 años.</p>
+  </section>
+
+  <section>
+    <h2>Anuncios</h2>
+    <p>Esta versión de Tiza no muestra anuncios. Si en el futuro los incluye, esta política se actualizará antes con qué datos usan y cómo gestionar tu consentimiento.</p>
+  </section>
+
+  <section>
+    <h2>Cambios en esta política</h2>
+    <p>Si cambia esta política, se publicará aquí con una nueva fecha de actualización.</p>
+  </section>
+</main>
+</body>
+</html>
