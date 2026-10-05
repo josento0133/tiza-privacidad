@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tiza : politique de confidentialité</title>
+<style>
+  :root { --fondo: #F2F3F5; --texto: #1B1F24; --suave: #5F6873; --acento: #1E5BD8; --tarjeta: #FFFFFF; }
+  @media (prefers-color-scheme: dark) {
+    :root { --fondo: #121417; --texto: #EEF0F3; --suave: #9AA3AE; --acento: #5B8FF2; --tarjeta: #1C1F24; }
+  }
+  body { margin: 0; background: var(--fondo); color: var(--texto); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 48px; }
+  section { background: var(--tarjeta); border-radius: 12px; padding: 4px 20px; margin: 16px 0; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 18px 0 6px; }
+  p, li { margin: 6px 0; }
+  .fecha { color: var(--suave); margin: 0; }
+  .idiomas { color: var(--suave); margin: 6px 0 0; }
+  a { color: var(--acento); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Politique de confidentialité de Tiza</h1>
+  <p class="fecha">Dernière mise à jour : 5 octobre 2026</p>
+  <p class="idiomas"><a href="../">Español</a> · <a href="../en/">English</a> · <strong>Français</strong> · <a href="../it/">Italiano</a> · <a href="../de/">Deutsch</a></p>
+
+  <section>
+    <h2>Qui est responsable</h2>
+    <p>Tiza est une app pour enregistrer vos entraînements en salle, publiée sur Google Play par son développeur. Pour toute question sur la confidentialité, écrivez à <a href="mailto:josejose0133@gmail.com">josejose0133@gmail.com</a>.</p>
+  </section>
+
+  <section>
+    <h2>Quelles données l'app conserve</h2>
+    <p>Tout ce que vous saisissez est stocké sur votre téléphone : vos séries et entraînements, routines, poids du corps, profil (taille, âge, sexe, objectif, expérience et séances par semaine), salles et leurs notes, réglages et, si vous configurez l'IA, votre clé API. Tiza n'a ni comptes utilisateur ni serveurs propres : le développeur ne reçoit et ne peut voir aucune de ces données.</p>
+  </section>
+
+  <section>
+    <h2>Quelles données quittent votre téléphone : l'IA</h2>
+    <p>L'IA est facultative. Elle n'est utilisée que si vous configurez une IA avec votre propre clé API et utilisez l'une de ses fonctions. Tiza envoie alors directement à l'IA choisie, par une connexion chiffrée (HTTPS), les données dont cette fonction a besoin :</p>
+    <ul>
+      <li><strong>Améliorer avec l'IA</strong> (quand vous le touchez, ou tout seul si vous activez « Améliorer avec l'IA auto ») : votre profil (âge, sexe, taille, objectif et expérience), votre poids, votre salle active (matériel et notes), vos dernières séances de cet exercice, ce que vous avez fait aujourd'hui et, si vous suivez une routine, son objectif et la consigne de cet exercice (séries, répétitions et repos).</li>
+      <li><strong>Recommandation de quoi travailler aujourd'hui :</strong> vos entraînements des derniers jours, les noms de vos exercices avec leur groupe musculaire et leur matériel, votre objectif, votre expérience, votre âge et votre sexe, et votre salle active.</li>
+      <li><strong>Analyse IA :</strong> l'évolution de vos exercices sur les 60 derniers jours (poids max, séries et volume), le résumé de votre dernière semaine et votre poids.</li>
+      <li><strong>Classer avec l'IA :</strong> les noms de vos exercices.</li>
+    </ul>
+    <p>Ces données ne passent par aucun serveur de Tiza. Elles sont reçues et traitées par le fournisseur de l'IA selon sa propre politique :</p>
+    <ul>
+      <li>Google (Gemini) : <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>. Avec le niveau gratuit de l'API Gemini, Google peut utiliser le contenu pour améliorer ses produits.</li>
+      <li>Anthropic (Claude) : <a href="https://www.anthropic.com/legal/privacy">anthropic.com/legal/privacy</a>.</li>
+      <li>OpenAI (ChatGPT) : <a href="https://openai.com/policies/privacy-policy">openai.com/policies/privacy-policy</a>.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Autorisations</h2>
+    <ul>
+      <li><strong>Notifications :</strong> pour afficher le compte à rebours du repos, vous prévenir à la fin et, si vous les activez, les rappels d'entraînement.</li>
+      <li><strong>Alarmes et rappels :</strong> pour que l'alerte de fin de repos arrive à l'heure écran éteint. Vous pouvez la refuser ; l'alerte peut alors arriver avec un peu de retard.</li>
+      <li><strong>Internet :</strong> uniquement pour communiquer avec l'IA choisie.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Sauvegardes</h2>
+    <p>Si vous activez la sauvegarde automatique ou touchez « Sauvegarder maintenant », Tiza enregistre des copies de vos données dans l'app (les 10 dernières) et la dernière aussi dans le dossier Téléchargements de votre téléphone (tiza-backup.db). Cette copie et les fichiers que vous exportez ou partagez ne contiennent pas vos clés API. La copie de Téléchargements est votre fichier : elle n'est pas supprimée quand vous désinstallez l'app ; supprimez-la vous-même si vous n'en voulez plus.</p>
+    <p>De plus, si la sauvegarde Android est activée, le système peut enregistrer les données de l'app (y compris vos clés API) dans votre compte Google. Tiza n'a pas accès à cette sauvegarde ; elle se gère depuis les réglages de sauvegarde de votre téléphone.</p>
+  </section>
+
+  <section>
+    <h2>Sécurité, conservation et suppression</h2>
+    <p>Vos données restent sur votre téléphone jusqu'à ce que vous désinstalliez l'app, ce qui les supprime toutes (sauf la copie de Téléchargements, qui est votre fichier). Vous pouvez aussi les supprimer depuis l'app, dans Réglages &gt; Données : Supprimer les entraînements supprime les séries enregistrées, et Supprimer toutes les données supprime aussi votre poids, votre profil, vos routines, vos salles, vos clés API et les copies gardées dans l'app (la langue, le thème et les autres réglages de l'app sont conservés). Votre clé API peut aussi être supprimée seule dans Réglages &gt; IA &gt; Supprimer la clé. Ce qui est envoyé à l'IA est conservé par le fournisseur selon sa politique ; pour le supprimer, adressez-vous à lui. Les connexions avec l'IA utilisent HTTPS et les copies exportées par Tiza ne contiennent pas vos clés API.</p>
+  </section>
+
+  <section>
+    <h2>Mineurs</h2>
+    <p>Tiza ne s'adresse pas aux personnes de moins de 18 ans.</p>
+  </section>
+
+  <section>
+    <h2>Publicité</h2>
+    <p>Cette version de Tiza n'affiche pas de publicité. Si elle en inclut à l'avenir, cette politique sera mise à jour avant, avec les données utilisées et la façon de gérer votre consentement.</p>
+  </section>
+
+  <section>
+    <h2>Modifications de cette politique</h2>
+    <p>Si cette politique change, la nouvelle version sera publiée ici avec une nouvelle date de mise à jour.</p>
+  </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tiza: Datenschutzerklärung</title>
+<style>
+  :root { --fondo: #F2F3F5; --texto: #1B1F24; --suave: #5F6873; --acento: #1E5BD8; --tarjeta: #FFFFFF; }
+  @media (prefers-color-scheme: dark) {
+    :root { --fondo: #121417; --texto: #EEF0F3; --suave: #9AA3AE; --acento: #5B8FF2; --tarjeta: #1C1F24; }
+  }
+  body { margin: 0; background: var(--fondo); color: var(--texto); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 48px; }
+  section { background: var(--tarjeta); border-radius: 12px; padding: 4px 20px; margin: 16px 0; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 18px 0 6px; }
+  p, li { margin: 6px 0; }
+  .fecha { color: var(--suave); margin: 0; }
+  .idiomas { color: var(--suave); margin: 6px 0 0; }
+  a { color: var(--acento); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Datenschutzerklärung von Tiza</h1>
+  <p class="fecha">Stand: 5. Oktober 2026</p>
+  <p class="idiomas"><a href="../">Español</a> · <a href="../en/">English</a> · <a href="../fr/">Français</a> · <a href="../it/">Italiano</a> · <strong>Deutsch</strong></p>
+
+  <section>
+    <h2>Verantwortlicher</h2>
+    <p>Tiza ist eine App zum Erfassen von Trainingseinheiten im Fitnessstudio, die ihr Entwickler bei Google Play veröffentlicht. Bei Fragen zum Datenschutz schreib an <a href="mailto:josejose0133@gmail.com">josejose0133@gmail.com</a>.</p>
+  </section>
+
+  <section>
+    <h2>Welche Daten die App speichert</h2>
+    <p>Alles, was du eingibst, wird auf deinem Handy gespeichert: deine Sätze und Trainings, Routinen, dein Körpergewicht, dein Profil (Größe, Alter, Geschlecht, Ziel, Erfahrung und Trainings pro Woche), Studios und ihre Notizen, Einstellungen und, wenn du die KI einrichtest, dein API-Schlüssel. Tiza hat weder Benutzerkonten noch eigene Server: Der Entwickler erhält keine dieser Daten und kann sie nicht sehen.</p>
+  </section>
+
+  <section>
+    <h2>Welche Daten dein Handy verlassen: die KI</h2>
+    <p>Die KI ist optional. Sie wird nur genutzt, wenn du eine KI mit deinem eigenen API-Schlüssel einrichtest und eine ihrer Funktionen verwendest. Dann sendet Tiza direkt an die gewählte KI, über eine verschlüsselte Verbindung (HTTPS), die Daten, die diese Funktion braucht:</p>
+    <ul>
+      <li><strong>Mit KI verbessern</strong> (wenn du darauf tippst, oder von selbst, wenn du „Automatisch mit KI verbessern“ einschaltest): dein Profil (Alter, Geschlecht, Größe, Ziel und Erfahrung), dein Körpergewicht, dein aktives Studio (Ausstattung und Notizen), deine letzten Einheiten dieser Übung, was du heute gemacht hast und, wenn du mit einer Routine trainierst, ihr Ziel und die Vorgabe für diese Übung (Sätze, Wiederholungen und Pause).</li>
+      <li><strong>Empfehlung, was du heute trainierst:</strong> deine Trainings der letzten Tage, die Namen deiner Übungen mit ihrer Muskelgruppe und ihrem Gerät, dein Ziel, deine Erfahrung, dein Alter und Geschlecht sowie dein aktives Studio.</li>
+      <li><strong>KI-Analyse:</strong> die Entwicklung deiner Übungen in den letzten 60 Tagen (Maximalgewicht, Sätze und Volumen), die Zusammenfassung deiner letzten Woche und dein Körpergewicht.</li>
+      <li><strong>Mit KI einordnen:</strong> die Namen deiner Übungen.</li>
+    </ul>
+    <p>Diese Daten laufen über keinen Server von Tiza. Sie werden vom Anbieter der KI nach dessen eigener Datenschutzerklärung empfangen und verarbeitet:</p>
+    <ul>
+      <li>Google (Gemini): <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>. In der kostenlosen Stufe der Gemini-API kann Google die Inhalte zur Verbesserung seiner Produkte nutzen.</li>
+      <li>Anthropic (Claude): <a href="https://www.anthropic.com/legal/privacy">anthropic.com/legal/privacy</a>.</li>
+      <li>OpenAI (ChatGPT): <a href="https://openai.com/policies/privacy-policy">openai.com/policies/privacy-policy</a>.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Berechtigungen</h2>
+    <ul>
+      <li><strong>Benachrichtigungen:</strong> um den Countdown der Pause zu zeigen, dich am Ende zu benachrichtigen und, wenn du sie einschaltest, für Trainingserinnerungen.</li>
+      <li><strong>Wecker und Erinnerungen:</strong> damit der Hinweis am Pausenende auch bei ausgeschaltetem Bildschirm pünktlich kommt. Du kannst sie verweigern; der Hinweis kann dann etwas später kommen.</li>
+      <li><strong>Internet:</strong> nur für die Verbindung mit der gewählten KI.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Sicherungen</h2>
+    <p>Wenn du die automatische Sicherung einschaltest oder auf „Jetzt sichern“ tippst, speichert Tiza Kopien deiner Daten in der App (die letzten 10) und die neueste auch im Download-Ordner deines Handys (tiza-backup.db). Diese Kopie und die Dateien, die du exportierst oder teilst, enthalten deine API-Schlüssel nicht. Die Kopie unter Downloads ist deine eigene Datei: Sie wird beim Deinstallieren der App nicht gelöscht; lösche sie selbst, wenn du sie nicht mehr brauchst.</p>
+    <p>Außerdem kann das System, wenn die Android-Sicherung eingeschaltet ist, die Daten der App (einschließlich deiner API-Schlüssel) in deinem Google-Konto speichern. Tiza hat keinen Zugriff auf diese Sicherung; du verwaltest sie in den Sicherungseinstellungen deines Handys.</p>
+  </section>
+
+  <section>
+    <h2>Sicherheit, Speicherdauer und Löschung</h2>
+    <p>Deine Daten bleiben auf deinem Handy, bis du die App deinstallierst; dabei werden alle gelöscht (außer der Kopie unter Downloads, die deine eigene Datei ist). Du kannst sie auch in der App löschen, unter Einstellungen &gt; Daten: „Trainings löschen“ löscht die erfassten Sätze, und „Alle Daten löschen“ löscht außerdem Körpergewicht, Profil, Routinen, Studios, API-Schlüssel und die in der App gespeicherten Kopien (Sprache, Design und die übrigen App-Einstellungen bleiben erhalten). Deinen API-Schlüssel kannst du auch einzeln unter Einstellungen &gt; KI &gt; Schlüssel löschen entfernen. Was an die KI gesendet wird, speichert der Anbieter nach seiner Datenschutzerklärung; um es zu löschen, wende dich an ihn. Die Verbindungen mit der KI nutzen HTTPS, und die von Tiza exportierten Kopien enthalten deine API-Schlüssel nicht.</p>
+  </section>
+
+  <section>
+    <h2>Minderjährige</h2>
+    <p>Tiza richtet sich nicht an Personen unter 18 Jahren.</p>
+  </section>
+
+  <section>
+    <h2>Werbung</h2>
+    <p>Diese Version von Tiza zeigt keine Werbung. Sollte sie künftig Werbung enthalten, wird diese Datenschutzerklärung vorher aktualisiert, mit den verwendeten Daten und der Verwaltung deiner Einwilligung.</p>
+  </section>
+
+  <section>
+    <h2>Änderungen dieser Datenschutzerklärung</h2>
+    <p>Ändert sich diese Datenschutzerklärung, wird die neue Fassung hier mit neuem Datum veröffentlicht.</p>
+  </section>
+</main>
+</body>
+</html>
