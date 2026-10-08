@@ -23,7 +23,7 @@
 <body>
 <main>
   <h1>Política de privacidad de Tiza</h1>
-  <p class="fecha">Última actualización: 5 de octubre de 2026</p>
+  <p class="fecha">Última actualización: 8 de octubre de 2026</p>
   <p class="idiomas"><strong>Español</strong> · <a href="en/">English</a> · <a href="fr/">Français</a> · <a href="it/">Italiano</a> · <a href="de/">Deutsch</a></p>
 
   <section>
@@ -33,14 +33,14 @@
 
   <section>
     <h2>Qué datos guarda la app</h2>
-    <p>Todo lo que introduces se guarda en tu móvil: tus series y entrenamientos, rutinas, peso corporal, perfil (altura, edad, sexo, objetivo, experiencia y entrenos por semana), gimnasios y sus notas, ajustes y, si configuras la IA, tu API key. Tiza no tiene cuentas de usuario ni servidores propios: el desarrollador no recibe ni puede ver ninguno de estos datos.</p>
+    <p>Todo lo que introduces se guarda en tu móvil: tus series y entrenamientos, cómo te has sentido cada día (si lo anotas), rutinas, peso corporal, perfil (altura, edad, sexo, objetivo, experiencia y entrenos por semana), gimnasios y sus notas, ajustes y, si configuras la IA, tu API key. Tiza no tiene cuentas de usuario ni servidores propios: el desarrollador no recibe ni puede ver ninguno de estos datos. Los informes de errores (más abajo) tampoco los incluyen.</p>
   </section>
 
   <section>
     <h2>Qué datos salen de tu móvil: la IA</h2>
     <p>La IA es opcional. Solo se usa si configuras una IA con tu propia API key y usas una de sus funciones. Entonces Tiza envía directamente a la IA que hayas elegido, por una conexión cifrada (HTTPS), los datos que necesita esa función:</p>
     <ul>
-      <li><strong>Mejorar con IA</strong> (al pulsarlo, o sola si activas "Mejorar con IA automático"): tu perfil (edad, sexo, altura, objetivo y experiencia), tu peso corporal, tu gimnasio activo (equipamiento, pesos disponibles y notas), tus últimas sesiones de ese ejercicio, lo que has hecho hoy y, si entrenas con una rutina, su objetivo y la pauta de ese ejercicio (series, repeticiones y descanso).</li>
+      <li><strong>Mejorar con IA</strong> (al pulsarlo, o sola si activas "Mejorar con IA automático"): tu perfil (edad, sexo, altura, objetivo y experiencia), tu peso corporal, tu gimnasio activo (equipamiento, pesos disponibles y notas), tus últimas sesiones de ese ejercicio, lo que has hecho hoy, cómo te sientes hoy (si lo has anotado) y, si entrenas con una rutina, su objetivo y la pauta de ese ejercicio (series, repeticiones y descanso).</li>
       <li><strong>Recomendación de qué entrenar hoy:</strong> tus entrenos de los últimos días, los nombres de tus ejercicios con su grupo muscular y equipo, tu objetivo, experiencia, edad y sexo, y tu gimnasio activo.</li>
       <li><strong>Análisis IA:</strong> la evolución de tus ejercicios en los últimos 60 días (peso máximo, series y volumen), el resumen de tu última semana y tu peso corporal.</li>
       <li><strong>Clasificar con IA:</strong> los nombres de tus ejercicios.</li>
@@ -54,11 +54,17 @@
   </section>
 
   <section>
+    <h2>Qué datos salen de tu móvil: informes de errores</h2>
+    <p>Si la app falla y tienes activado "Enviar informes de errores" (Ajustes &gt; Información; activado por defecto), Tiza envía a Sentry, con servidores en la Unión Europea, los datos técnicos del fallo: el error y en qué parte de la app se produjo, la versión de la app y de Android y el modelo del móvil. Sirven solo para encontrar y corregir fallos. No incluyen tu historial, tu perfil, tus gimnasios, tus API keys ni nada que te identifique, y Tiza tapa además cualquier texto con forma de API key antes de enviarlo.</p>
+    <p>Sentry trata estos datos como encargado del tratamiento según su política: <a href="https://sentry.io/privacy/">sentry.io/privacy</a>.</p>
+  </section>
+
+  <section>
     <h2>Permisos</h2>
     <ul>
       <li><strong>Notificaciones:</strong> para mostrar la cuenta atrás del descanso, avisarte al terminar y, si los activas, los recordatorios de entreno.</li>
       <li><strong>Alarmas y recordatorios:</strong> para que el aviso de fin de descanso llegue a su hora con la pantalla apagada. Puedes negarlo; el aviso puede llegar con algo de retraso.</li>
-      <li><strong>Internet:</strong> solo para hablar con la IA que elijas.</li>
+      <li><strong>Internet:</strong> solo para hablar con la IA que elijas y, si están activados, enviar los informes de errores.</li>
     </ul>
   </section>
 
@@ -70,7 +76,7 @@
 
   <section>
     <h2>Seguridad, conservación y borrado</h2>
-    <p>Tus datos se quedan en tu móvil hasta que desinstales la app, que los borra todos (salvo la copia de Descargas, que es un fichero tuyo). También puedes borrarlos desde la app, en Ajustes &gt; Datos: Borrar entrenamientos borra las series registradas, y Borrar todos los datos borra además tu peso corporal, perfil, rutinas, gimnasios, API keys y las copias guardadas dentro de la app (se conservan el idioma, el tema y los demás ajustes de la app). Tu API key también se puede borrar sola en Ajustes &gt; IA &gt; Borrar key. Lo que se envía a la IA lo conserva el proveedor según su política; para borrarlo, dirígete a él. Las conexiones con la IA usan HTTPS y las copias que exporta Tiza no llevan tus API keys.</p>
+    <p>Tus datos se quedan en tu móvil hasta que desinstales la app, que los borra todos (salvo la copia de Descargas, que es un fichero tuyo). También puedes borrarlos desde la app, en Ajustes &gt; Datos: Borrar entrenamientos borra las series registradas y cómo te sentiste cada día, y Borrar todos los datos borra además tu peso corporal, perfil, rutinas, gimnasios, API keys y las copias guardadas dentro de la app (se conservan el idioma, el tema y los demás ajustes de la app). Tu API key también se puede borrar sola en Ajustes &gt; IA &gt; Borrar key. Lo que se envía a la IA lo conserva el proveedor según su política; para borrarlo, dirígete a él. Las conexiones con la IA usan HTTPS y las copias que exporta Tiza no llevan tus API keys. Para dejar de enviar informes de errores, desactiva Ajustes &gt; Información &gt; Enviar informes de errores; para que se borren los ya enviados, escribe a <a href="mailto:josejose0133@gmail.com">josejose0133@gmail.com</a>.</p>
   </section>
 
   <section>
